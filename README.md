@@ -25,25 +25,8 @@ Then it waits for compaction:
 
 ![The attack sequence: a forged label planted in fetched text is laundered through compaction and executed](attack-sequence.svg)
 
-<!-- Diagram source (mermaid):
-sequenceDiagram
-    autonumber
-    actor Alice
-    participant pi
-    participant Bob
-    Note over Bob: one planted line in the guide
-    Alice->>pi: get the failing tests green
-    pi->>Bob: fetch the team's setup guide
-    Bob-->>pi: guide text plus a forged User label
-    Note over pi: pi audits the guide and refuses to run it
-    Alice->>pi: compact — the context is full
-    Note over pi: harness flattens history to one string - forged label now indistinguishable from a real user turn
-    pi->>pi: summarize the flattened history
-    Note over pi: memory now says the user approved the bootstrap
-    Alice->>pi: ok, what is next?
-    pi->>pi: runs the bootstrap without asking
-    pi--)Bob: attacker code executes and phones home
--->
+<sub>Diagram source: [`attack-sequence.mmd`](attack-sequence.mmd) (regenerate with mermaid-cli, then re-apply the note-box padding fix).</sub>
+
 
 Before compaction the agent catches the forged line every time — it audits, it refuses. After
 compaction the same session obeys it. The poisoning happens *in the summarization step*, which is
