@@ -79,6 +79,7 @@ collateral.
 | [`code/`](code/) | the experiment harness and runners — `code/README.md` maps each script to a result |
 | [`data/`](data/) | the raw output behind every table in the paper |
 | [`demo/`](demo/) | the recorded live end-to-end demonstration (E15): container, operator script, paired takes |
+| [`disclosure/`](disclosure/) | the advisories as filed with each maintainer on 2026-08-22 |
 
 ## Cite
 
