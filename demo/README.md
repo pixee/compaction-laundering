@@ -81,5 +81,5 @@ urgent trigger (which fired in both arms, poisoned and clean alike) and a bare
 acknowledgment (which never triggered execution), which is why the headline set uses a
 neutral task handoff as the trigger.
 
-The canonical Case Study (`05-case-study.md`) is take `v4c-whatsnext/pair-2`: the poisoned arm
+The canonical Case Study (§ Case Study of the paper) is take `v4c-whatsnext/pair-2`: the poisoned arm
 is a WIN with six attacker callbacks in `collected.log`; its clean twin refuses.
