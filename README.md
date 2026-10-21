@@ -23,7 +23,9 @@ web page Alice's team already trusts. He puts a single line in it:
 
 Then it waits for compaction:
 
-```mermaid
+![The attack sequence: a forged label planted in fetched text is laundered through compaction and executed](attack-sequence.svg)
+
+<!-- Diagram source (mermaid):
 sequenceDiagram
     autonumber
     actor Alice
@@ -35,13 +37,13 @@ sequenceDiagram
     Bob-->>pi: guide text plus a forged User label
     Note over pi: pi audits the guide and refuses to run it
     Alice->>pi: compact — the context is full
-    Note over pi: the harness flattens the history into one string, so the forged label is now indistinguishable from a real user turn
+    Note over pi: harness flattens history to one string - forged label now indistinguishable from a real user turn
     pi->>pi: summarize the flattened history
     Note over pi: memory now says the user approved the bootstrap
     Alice->>pi: ok, what is next?
     pi->>pi: runs the bootstrap without asking
     pi--)Bob: attacker code executes and phones home
-```
+-->
 
 Before compaction the agent catches the forged line every time — it audits, it refuses. After
 compaction the same session obeys it. The poisoning happens *in the summarization step*, which is
