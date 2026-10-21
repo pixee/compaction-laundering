@@ -1,0 +1,28 @@
+[project]
+name = "compaction-study"
+version = "0.1.0"
+description = "Cross-family study of provenance loss in coding-agent compaction"
+requires-python = ">=3.11"
+dependencies = [
+    "anthropic>=0.69.0",
+    "openai>=1.60.0",
+    "google-genai>=1.0.0",
+]
+
+[project.scripts]
+study = "compaction_study.cli:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/compaction_study"]
+
+[tool.ruff]
+line-length = 110
+target-version = "py311"
+
+[tool.ruff.lint.per-file-ignores]
+# Serializers mirror upstream branch structure so the ports stay diffable.
+"src/compaction_study/serialize.py" = ["SIM102"]

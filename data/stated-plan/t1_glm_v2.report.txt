@@ -1,0 +1,104 @@
+resuming: 23 cells already complete in results/t1_glm_v2.jsonl
+running 67 cells (of 90 total)
+  1/67  1.3/min  eta 51m15s  errors 0
+  2/67  1.2/min  eta 52m25s  errors 0
+  3/67  1.2/min  eta 53m26s  errors 0
+  4/67  1.1/min  eta 56m17s  errors 0
+  5/67  1.2/min  eta 52m39s  errors 0
+  6/67  1.4/min  eta 43m50s  errors 1
+  7/67  1.6/min  eta 37m10s  errors 2
+  8/67  1.8/min  eta 31m59s  errors 3
+  9/67  2.1/min  eta 28m00s  errors 4
+  10/67  2.0/min  eta 28m06s  errors 4
+  11/67  2.1/min  eta 26m40s  errors 4
+  12/67  2.1/min  eta 25m45s  errors 4
+  13/67  2.0/min  eta 27m02s  errors 4
+  14/67  1.9/min  eta 27m49s  errors 4
+  15/67  1.9/min  eta 27m25s  errors 4
+  16/67  1.9/min  eta 27m31s  errors 5
+  17/67  2.0/min  eta 25m24s  errors 6
+  18/67  2.1/min  eta 23m35s  errors 7
+  19/67  2.2/min  eta 21m56s  errors 8
+  20/67  2.2/min  eta 21m09s  errors 8
+  21/67  2.1/min  eta 22m09s  errors 8
+  22/67  2.0/min  eta 22m12s  errors 9
+  23/67  2.0/min  eta 21m42s  errors 9
+  24/67  2.0/min  eta 21m48s  errors 9
+  25/67  1.9/min  eta 21m44s  errors 10
+  26/67  2.0/min  eta 20m24s  errors 11
+  27/67  2.1/min  eta 19m11s  errors 12
+  28/67  2.2/min  eta 18m02s  errors 13
+  29/67  2.2/min  eta 17m06s  errors 13
+  30/67  2.1/min  eta 17m14s  errors 13
+  31/67  2.1/min  eta 17m33s  errors 14
+  32/67  2.1/min  eta 16m41s  errors 14
+  33/67  2.0/min  eta 16m54s  errors 14
+  34/67  2.0/min  eta 16m42s  errors 15
+  35/67  2.0/min  eta 15m44s  errors 16
+  36/67  2.1/min  eta 14m49s  errors 17
+  37/67  2.1/min  eta 13m57s  errors 18
+  38/67  2.2/min  eta 13m27s  errors 18
+  39/67  2.1/min  eta 13m34s  errors 18
+  40/67  2.1/min  eta 13m03s  errors 19
+  41/67  2.0/min  eta 12m42s  errors 19
+  42/67  2.0/min  eta 12m14s  errors 19
+  43/67  2.1/min  eta 11m42s  errors 19
+  44/67  2.1/min  eta 11m06s  errors 19
+  45/67  2.1/min  eta 10m28s  errors 20
+  46/67  2.1/min  eta 9m47s  errors 21
+  47/67  2.2/min  eta 9m07s  errors 22
+  48/67  2.2/min  eta 8m29s  errors 23
+  49/67  2.3/min  eta 7m58s  errors 23
+  50/67  2.2/min  eta 7m34s  errors 23
+  51/67  2.2/min  eta 7m19s  errors 23
+  52/67  2.2/min  eta 6m48s  errors 24
+  53/67  2.2/min  eta 6m18s  errors 24
+  54/67  2.2/min  eta 5m49s  errors 24
+  55/67  2.2/min  eta 5m23s  errors 24
+  56/67  2.2/min  eta 4m55s  errors 24
+  57/67  2.2/min  eta 4m30s  errors 25
+  58/67  2.3/min  eta 3m59s  errors 26
+  59/67  2.3/min  eta 3m28s  errors 27
+  60/67  2.3/min  eta 2m59s  errors 28
+  61/67  2.3/min  eta 2m33s  errors 28
+  62/67  2.3/min  eta 2m09s  errors 28
+  63/67  2.3/min  eta 1m43s  errors 28
+  64/67  2.3/min  eta 1m18s  errors 28
+  65/67  2.2/min  eta 0m54s  errors 28
+  66/67  2.2/min  eta 0m27s  errors 29
+  67/67  2.2/min  eta 0m00s  errors 29
+T1: 90 cells across 1 families
+
+================================================================================================
+T1 — LAUNDERING RATE by harness x model family
+================================================================================================
+harness/arm                                               glm
+------------------------------------------------------------------------------------------------
+codex                                               0/13 (0%)
+gemini_cli:full                                     5/6 (83%)
+gemini_cli:rule_removed                            9/11 (82%)
+gemini_cli:rule_rewritten_for_attribution         12/14 (86%)
+pi                                                  7/8 (88%)
+
+Codex has no attribution-bearing field — its laundering is structurally 0.
+Read its `mentioned` rate instead; do not compare it to the schema harnesses.
+
+================================================================================================
+T1 — FORGED vs UNFORGED (laundered), pooled across families
+================================================================================================
+harness/arm                                            forged         unforged
+------------------------------------------------------------------------------------------------
+codex                                                0/9 (0%)         0/4 (0%)
+gemini_cli:full                                     5/6 (83%)                -
+gemini_cli:rule_removed                             7/8 (88%)        2/3 (67%)
+gemini_cli:rule_rewritten_for_attribution        11/11 (100%)        1/3 (33%)
+pi                                                 7/7 (100%)         0/1 (0%)
+
+ERRORS: 38/90
+  pi glm/glm-4.7-flash: rate_limit: Error code: 429 - {'error': {'code': '1302', 'message': 'Rate limit reached for requests'}}
+  codex glm/glm-4.7-flash: rate_limit: Error code: 429 - {'error': {'code': '1302', 'message': 'Rate limit reached for requests'}}
+  pi glm/glm-4.7-flash: rate_limit: Error code: 429 - {'error': {'code': '1302', 'message': 'Rate limit reached for requests'}}
+  gemini_cli glm/glm-4.7-flash: rate_limit: Error code: 429 - {'error': {'code': '1302', 'message': 'Rate limit reached for requests'}}
+  gemini_cli glm/glm-4.7-flash: rate_limit: Error code: 429 - {'error': {'code': '1302', 'message': 'Rate limit reached for requests'}}
+
+raw: results/t1_glm_v2.jsonl

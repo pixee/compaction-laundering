@@ -1,0 +1,10 @@
+.DS_Store
+*.tmp
+.venv/
+__pycache__/
+*.egg-info/
+.ruff_cache/
+.playwright-mcp/
+
+# Raw experiment results ARE committed — they are the evidence, and a claimed flip rate
+# with no transcripts behind it is not worth much. Keep them.

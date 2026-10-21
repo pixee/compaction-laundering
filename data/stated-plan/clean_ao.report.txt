@@ -1,0 +1,4 @@
+CLEAN: 120 cells across 2 families
+clean corpus: 120/120 summaries produced
+
+raw: results/clean_ao.jsonl

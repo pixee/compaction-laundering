@@ -1,0 +1,5 @@
+work/
+
+# runner outputs (canonical snapshots live in data/live/)
+*_result.json
+evidence.json

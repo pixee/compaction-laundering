@@ -1,0 +1,140 @@
+{
+  "pi @ start(10%)": [
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    }
+  ],
+  "codex @ start(10%)": [
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    }
+  ],
+  "pi @ middle(50%)": [
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    }
+  ],
+  "codex @ middle(50%)": [
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    }
+  ],
+  "pi @ end(90%)": [
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "harness": "pi"
+    }
+  ],
+  "codex @ end(90%)": [
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    },
+    {
+      "error": null,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "harness": "codex"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+running 720 cells (of 720 total)
+  14/720  1516.8/min  eta 0m27s  errors 14
+  28/720  1993.7/min  eta 0m20s  errors 28
+  42/720  2220.7/min  eta 0m18s  errors 42
+  56/720  2340.9/min  eta 0m17s  errors 56
+  70/720  2398.1/min  eta 0m16s  errors 70
+  84/720  2459.9/min  eta 0m15s  errors 84
+  98/720  2498.3/min  eta 0m14s  errors 98
+  112/720  2647.3/min  eta 0m13s  errors 112
+  126/720  2673.8/min  eta 0m13s  errors 126
+  140/720  2672.9/min  eta 0m13s  errors 140
+  154/720  2682.2/min  eta 0m12s  errors 154
+  168/720  2699.1/min  eta 0m12s  errors 168
+  182/720  2602.3/min  eta 0m12s  errors 182
+  196/720  2602.1/min  eta 0m12s  errors 196
+  210/720  2647.8/min  eta 0m11s  errors 210
+  224/720  2652.9/min  eta 0m11s  errors 224
+  238/720  2647.9/min  eta 0m10s  errors 238
+  252/720  2673.9/min  eta 0m10s  errors 252
+  266/720  2687.6/min  eta 0m10s  errors 266
+  280/720  2698.1/min  eta 0m09s  errors 280
+  294/720  2704.6/min  eta 0m09s  errors 294
+  308/720  2718.4/min  eta 0m09s  errors 308
+  322/720  2735.5/min  eta 0m08s  errors 322
+  336/720  2703.7/min  eta 0m08s  errors 336
+  350/720  2710.4/min  eta 0m08s  errors 350
+  364/720  1164.0/min  eta 0m18s  errors 360

@@ -1,0 +1,386 @@
+{
+  "pi @ 2u": [
+    {
+      "units": 2,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 2759,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 2,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 2759,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 2,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 2759,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "codex @ 2u": [
+    {
+      "units": 2,
+      "harness": "codex",
+      "rep": 0,
+      "prompt_tokens": 2692,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 2,
+      "harness": "codex",
+      "rep": 1,
+      "prompt_tokens": 2692,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 2,
+      "harness": "codex",
+      "rep": 2,
+      "prompt_tokens": 2692,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 18u": [
+    {
+      "units": 18,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 21617,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 18,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 21617,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 18,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 21617,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "codex @ 18u": [
+    {
+      "units": 18,
+      "harness": "codex",
+      "rep": 0,
+      "prompt_tokens": 21582,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 18,
+      "harness": "codex",
+      "rep": 1,
+      "prompt_tokens": 21582,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 18,
+      "harness": "codex",
+      "rep": 2,
+      "prompt_tokens": 21582,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 55u": [
+    {
+      "units": 55,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 65195,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 55,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 65195,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 55,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 65195,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "codex @ 55u": [
+    {
+      "units": 55,
+      "harness": "codex",
+      "rep": 0,
+      "prompt_tokens": 65234,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 55,
+      "harness": "codex",
+      "rep": 1,
+      "prompt_tokens": 65234,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 55,
+      "harness": "codex",
+      "rep": 2,
+      "prompt_tokens": 65234,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 110u": [
+    {
+      "units": 110,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 110,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 110,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 130056,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "codex @ 110u": [
+    {
+      "units": 110,
+      "harness": "codex",
+      "rep": 0,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 110,
+      "harness": "codex",
+      "rep": 1,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 110,
+      "harness": "codex",
+      "rep": 2,
+      "prompt_tokens": 130205,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 180u": [
+    {
+      "units": 180,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 212550,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 180,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 212550,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 180,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 212550,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "codex @ 180u": [
+    {
+      "units": 180,
+      "harness": "codex",
+      "rep": 0,
+      "prompt_tokens": 212839,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 180,
+      "harness": "codex",
+      "rep": 1,
+      "prompt_tokens": 212839,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 180,
+      "harness": "codex",
+      "rep": 2,
+      "prompt_tokens": 212839,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 260u": [
+    {
+      "units": 260,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 306840,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 260,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 306840,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 260,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 306840,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "codex @ 260u": [
+    {
+      "units": 260,
+      "harness": "codex",
+      "rep": 0,
+      "prompt_tokens": 307289,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 260,
+      "harness": "codex",
+      "rep": 1,
+      "prompt_tokens": 307289,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 260,
+      "harness": "codex",
+      "rep": 2,
+      "prompt_tokens": 307289,
+      "flipped": false,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ]
+}

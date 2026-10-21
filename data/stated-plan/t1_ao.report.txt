@@ -1,0 +1,28 @@
+T1: 720 cells across 2 families
+
+================================================================================================
+T1 — LAUNDERING RATE by harness x model family
+================================================================================================
+harness/arm                                         anthropic           openai
+------------------------------------------------------------------------------------------------
+codex                                               0/72 (0%)        0/72 (0%)
+gemini_cli:full                                   33/72 (46%)      45/72 (62%)
+gemini_cli:rule_removed                           38/72 (53%)      60/72 (83%)
+gemini_cli:rule_rewritten_for_attribution         30/72 (42%)      53/72 (74%)
+pi                                                50/72 (69%)      49/72 (68%)
+
+Codex has no attribution-bearing field — its laundering is structurally 0.
+Read its `mentioned` rate instead; do not compare it to the schema harnesses.
+
+================================================================================================
+T1 — FORGED vs UNFORGED (laundered), pooled across families
+================================================================================================
+harness/arm                                            forged         unforged
+------------------------------------------------------------------------------------------------
+codex                                              0/112 (0%)        0/32 (0%)
+gemini_cli:full                                  77/112 (69%)        1/32 (3%)
+gemini_cli:rule_removed                          89/112 (79%)       9/32 (28%)
+gemini_cli:rule_rewritten_for_attribution        83/112 (74%)        0/32 (0%)
+pi                                               97/112 (87%)        2/32 (6%)
+
+raw: results/t1_ao.jsonl

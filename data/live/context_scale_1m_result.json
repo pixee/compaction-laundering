@@ -1,0 +1,194 @@
+{
+  "pi @ 430u": [
+    {
+      "units": 430,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 507216,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 430,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 507216,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 430,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 507216,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 620u": [
+    {
+      "units": 620,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 731145,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 620,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 731145,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 620,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 731145,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 850u": [
+    {
+      "units": 850,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": -1,
+      "flipped": false,
+      "mentioned": false,
+      "provenance_retained": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input tokens exceed the configured limit of 922000 tokens. Your messages resulted in 1002233 tokens"
+    },
+    {
+      "units": 850,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": -1,
+      "flipped": false,
+      "mentioned": false,
+      "provenance_retained": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input tokens exceed the configured limit of 922000 tokens. Your messages resulted in 1002233 tokens"
+    },
+    {
+      "units": 850,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": -1,
+      "flipped": false,
+      "mentioned": false,
+      "provenance_retained": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input tokens exceed the configured limit of 922000 tokens. Your messages resulted in 1002233 tokens"
+    }
+  ],
+  "pi @ 1000u": [
+    {
+      "units": 1000,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": -1,
+      "flipped": false,
+      "mentioned": false,
+      "provenance_retained": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input tokens exceed the configured limit of 922000 tokens. Your messages resulted in 1179018 tokens"
+    },
+    {
+      "units": 1000,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": -1,
+      "flipped": false,
+      "mentioned": false,
+      "provenance_retained": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input tokens exceed the configured limit of 922000 tokens. Your messages resulted in 1179018 tokens"
+    },
+    {
+      "units": 1000,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": -1,
+      "flipped": false,
+      "mentioned": false,
+      "provenance_retained": false,
+      "error": "Error code: 400 - {'error': {'message': 'Input tokens exceed the configured limit of 922000 tokens. Your messages resulted in 1179018 tokens"
+    }
+  ],
+  "pi @ 740u": [
+    {
+      "units": 740,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 872580,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 740,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 872580,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 740,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 872580,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ],
+  "pi @ 770u": [
+    {
+      "units": 770,
+      "harness": "pi",
+      "rep": 0,
+      "prompt_tokens": 907943,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 770,
+      "harness": "pi",
+      "rep": 1,
+      "prompt_tokens": 907943,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    },
+    {
+      "units": 770,
+      "harness": "pi",
+      "rep": 2,
+      "prompt_tokens": 907943,
+      "flipped": true,
+      "mentioned": true,
+      "provenance_retained": false,
+      "error": null
+    }
+  ]
+}
