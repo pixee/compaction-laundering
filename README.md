@@ -23,7 +23,10 @@ web page Alice's team already trusts. He puts a single line in it:
 
 Then it waits for compaction:
 
-![The attack sequence: a forged label planted in fetched text is laundered through compaction and executed](attack-sequence.svg)
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="attack-sequence-dark.svg">
+  <img src="attack-sequence.svg" alt="The attack sequence: a forged label planted in fetched text is laundered through compaction and executed">
+</picture>
 
 
 
