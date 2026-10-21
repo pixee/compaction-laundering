@@ -97,7 +97,7 @@ agents [2, 3, 4]. This work contributes:
 
 ## How this repository is organized
 
-The paper and all artifacts live at <https://github.com/pixee/compaction_attacks>.
+The paper and all artifacts live at <https://github.com/pixee/flat-compaction-attacks-oct-2027>.
 
 | Document               | Contents                                                                       |
 | ---------------------- | ------------------------------------------------------------------------------ |
