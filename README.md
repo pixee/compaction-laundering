@@ -25,7 +25,6 @@ Then it waits for compaction:
 
 ![The attack sequence: a forged label planted in fetched text is laundered through compaction and executed](attack-sequence.svg)
 
-<sub>Diagram source: [`attack-sequence.mmd`](attack-sequence.mmd) (regenerate with mermaid-cli, then re-apply the note-box padding fix).</sub>
 
 
 Before compaction the agent catches the forged line every time — it audits, it refuses. After
