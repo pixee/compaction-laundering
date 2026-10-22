@@ -90,12 +90,11 @@ collateral.
   author       = {Arshan Dabirsiaghi},
   year         = {2026},
   month        = {October},
-  howpublished = {arXiv},
-  note         = {arXiv:XXXX.XXXXX}
+  howpublished = {arXiv:2610.29869},
+  doi          = {10.48550/arXiv.2610.29869},
+  url          = {https://arxiv.org/abs/2610.29869}
 }
 ```
-
-<!-- TODO after arXiv submission: replace XXXX.XXXXX with the assigned identifier. -->
 
 ## Further reading
 
